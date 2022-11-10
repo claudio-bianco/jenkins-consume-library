@@ -3,9 +3,9 @@
 pipeline {
     agent none
     stages {
-        stage ('Example') {
+        stage('Example') {
             steps {
-                hellWorld()
+                helloWorld()
             }
         }
     }
