@@ -1,7 +1,7 @@
 @Library("shared-library") _
 
 pipeline {
-    agent { label "linux" }
+    agent none
     stages {
         stage ('Example') {
             steps {
